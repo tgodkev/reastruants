@@ -5,6 +5,7 @@
       <h1>Welcome to Restaurantly</h1>
       <NuxtLink to="/restaurants">Go to restaurants</NuxtLink>
     </div>
+ 
   </div>
 </template>
 
