@@ -1,5 +1,6 @@
 <script lang="ts" setup>
 import restaurants from "@/data.json"
+import Ad from "~/components/restaurant/Ad.vue";
 
 const route = useRoute();
 const name = route.params.name;
@@ -27,6 +28,7 @@ const restaurant = restaurants.find(r => r.name === name)
         <p class="content">{{ restaurant.content }}</p>
       </div>
     </div>
+    <Ad/>
   </div>
 </template>
 
